@@ -1,7 +1,7 @@
 ﻿body
 {
     background: #fff;
-    color: #000;
+    color: #111111;
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 16px;
     line-height: 28px;
@@ -11,6 +11,11 @@
 h1, h2, h3, h4, h5, h6, li, p
 {
     margin: 0 0 16px
+}
+
+h2, h3
+{
+    font-family: Calibri, Arial, sans-serif, sans-serif;
 }
 
 h1
@@ -108,11 +113,19 @@ a
 
     .header .title
     {
+        font-family: Helvetica, sans-serif;
         font-size: 50px;
         line-height: 36px;
         font-weight: 700;
         margin: 0
     }
+
+.indice-grande
+{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 32px;
+}
 
 .translations-list-container
 {
